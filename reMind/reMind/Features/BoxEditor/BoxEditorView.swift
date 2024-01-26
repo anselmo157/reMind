@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct BoxEditorView: View {
+    @Environment(\.presentationMode) var presentationMode
     @State var name: String
     @State var keywords: String
     @State var description: String
@@ -35,7 +36,7 @@ struct BoxEditorView: View {
             .toolbar {
                 ToolbarItem(placement: .navigationBarLeading) {
                     Button("Cancel") {
-                        print("Cancel")
+                        dismiss()
                     }
                 }
 
@@ -47,6 +48,10 @@ struct BoxEditorView: View {
                 }
             }
         }
+    }
+    
+    private func dismiss(){
+        presentationMode.wrappedValue.dismiss()
     }
 }
 
