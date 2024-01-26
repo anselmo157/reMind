@@ -11,6 +11,7 @@ class BoxViewModel: ObservableObject {
     @Published var boxes: [Box] = []
 
     init() {
+    ///TODO: Filtrar por data de criação
         self.boxes = Box.all()
     }
 

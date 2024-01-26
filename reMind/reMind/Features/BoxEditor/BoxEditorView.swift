@@ -9,6 +9,8 @@ import SwiftUI
 
 struct BoxEditorView: View {
     @Environment(\.presentationMode) var presentationMode
+    
+    @StateObject private var viewModel = BoxEditorViewModel()
     @State var name: String
     @State var keywords: String
     @State var description: String

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C099F2412B641387009458FB /* BoxEditorViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C099F2402B641387009458FB /* BoxEditorViewModel.swift */; };
 		FE1640962AC2126E0073317C /* Box.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE1640922AC2126E0073317C /* Box.swift */; };
 		FE1640992AC2126E0073317C /* Term.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE1640952AC2126E0073317C /* Term.swift */; };
 		FE3ABEC72A4F59D800432ED4 /* reRadioButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE3ABEC62A4F59D800432ED4 /* reRadioButton.swift */; };
@@ -42,6 +43,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C099F2402B641387009458FB /* BoxEditorViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoxEditorViewModel.swift; sourceTree = "<group>"; };
 		FE1640922AC2126E0073317C /* Box.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Box.swift; sourceTree = SOURCE_ROOT; };
 		FE1640952AC2126E0073317C /* Term.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Term.swift; sourceTree = SOURCE_ROOT; };
 		FE3ABEC62A4F59D800432ED4 /* reRadioButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = reRadioButton.swift; sourceTree = "<group>"; };
@@ -307,6 +309,7 @@
 			children = (
 				FE3ABECB2A4F5E7F00432ED4 /* Components */,
 				FEDE8E082A4DFFE100EEF7EA /* BoxEditorView.swift */,
+				C099F2402B641387009458FB /* BoxEditorViewModel.swift */,
 			);
 			path = BoxEditor;
 			sourceTree = "<group>";
@@ -394,6 +397,7 @@
 				FE3ABEE92A53563F00432ED4 /* SwipperLabel.swift in Sources */,
 				FEE2DC752A4B6172006A535D /* reBackground.swift in Sources */,
 				FEA517AA2A548FBC0004D9D1 /* SwipeReview.swift in Sources */,
+				C099F2412B641387009458FB /* BoxEditorViewModel.swift in Sources */,
 				FEA517AE2A54963E0004D9D1 /* SwipperCard.swift in Sources */,
 				FE1640962AC2126E0073317C /* Box.swift in Sources */,
 				FE3ABED52A5326C200432ED4 /* BoxView.swift in Sources */,
